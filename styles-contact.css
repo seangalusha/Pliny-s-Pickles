@@ -1,0 +1,135 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+ul{
+	/* <link rel="stylesheet" href="https://use.typekit.net/ivr1ekp.css"> */
+	font-size: 1.2em;
+	font-style: bold;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(202, 204, 57);
+}
+
+ul li{
+	float: left;
+}
+
+ul a{
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* change the link to color rgb(33, 117, 33) on hover */
+
+ul li a:hover {
+	background-color:rgb(32, 143, 32);
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-image: url("images/paint-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1 {
+	/* <link rel="stylesheet" href="https://use.typekit.net/ivr1ekp.css"> */
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 200;
+	font-style: bold;
+	font-size: 5em;
+	margin: 15px auto;
+	margin-bottom: 0px;
+	padding: 5px 150px;
+	color: #000000;
+}
+
+h2 {
+	 /* <link rel="stylesheet" href="https://use.typekit.net/ivr1ekp.css"> */
+	font-family: adobe-caslon-pro, serif;
+	font-style: normal;
+	font-size: 1.5em;
+	line-height: 1.4;
+    color: #000000;
+    padding: 0px 0px;
+	margin: 0px auto 0px auto;
+}
+
+p {
+	/* <link rel="stylesheet" href="https://use.typekit.net/ivr1ekp.css"> */
+	font-size: 1.2em;
+    line-height: 1.6;
+	color: #000000;
+	margin: 15px auto 15px auto;
+}
+
+blockquote {
+	/* <link rel="stylesheet" href="https://use.typekit.net/ivr1ekp.css"> */
+	font-family: french-canon, serif;
+	font-weight: 100;
+	font-style: bold;
+	font-size: 4em;
+	margin: 0px auto;
+	color: #000000;
+}
